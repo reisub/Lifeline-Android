@@ -1,0 +1,2 @@
+include ':app', ':facebook'
+project(':facebook').projectDir = new File('libs/facebook-android-sdk-3.20.0/facebook')

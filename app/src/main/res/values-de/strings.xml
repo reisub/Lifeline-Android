@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lifeline</string>
+    <string name="forgot_password">Password vergessen?</string>
+    <string name="register">Registrieren</string>
+    <string name="sign_in">Anmelden</string>
+    <string name="email">Email</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="confirm_password">Passwort konfirmieren</string>
+    <string name="field_required">Dieses Feld ist erforderlich</string>
+    <string name="passwords_must_match">Passwörter müssen übereinstimmen</string>
+    <string name="loading_message">Laden…</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_home">Heim</string>
+    <string name="menu_profile">Profil Administration</string>
+    <string name="menu_achievements">Erfolge</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_logout">Abmeldung</string>
+    <string name="twitter_login">Twitter anmeldung</string>
+    <string name="fb_login">Facebook anmeldung</string>
+    <string name="app_id">830133423676900</string>
+    <string name="event_call_question">Werden Sie die Spende Veranstaltung teilnehmen in %1$s at %2$s? Wir brauchen Ihre Blutgruppe.</string>
+    <string name="confirm_logout">Sind Sie sicher, dass Sie sich abmelden wollen?</string>
+    <string name="name">Vorname</string>
+    <string name="surname">Nachname</string>
+    <string name="street_address">Straße und Hausnummer</string>
+    <string name="additional_data">Mehr Dateien</string>
+    <string name="sex">Geschlecht</string>
+    <string name="rh_factor">Rh Faktor</string>
+    <string name="blood_type">Blut Typ</string>
+    <string name="save">Speichern</string>
+    <string name="save_success">Gespeichert</string>
+    <string name="password_reset_success">Eine E-Mail mit Anweisungen zum Zurücksetzen auf Ihre E-Mail-Adresse gesendet.</string>
+    <string name="language">Language</string>
+
+    <string-array name="sex">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="rh">
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="blood_type">
+        <item>0</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="languages">
+        <item>en</item>
+        <item>de</item>
+        <item>hr</item>
+    </string-array>
+
+    <string name="donated_liters">DONATED LITER</string>
+    <string name="days_next_donation">TAGE ZUR NEXTEM</string>
+    <string name="current_achievements">ERFOLGE</string>
+    <string name="liters_to_free_ticket">LITER ZUM FREIEN TRAM</string>
+    <string name="only_donors">Only donors can use this app.</string>
+    <string name="continue_">Weiter</string>
+
+</resources>

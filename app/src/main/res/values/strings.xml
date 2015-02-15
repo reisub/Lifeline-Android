@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lifeline</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="field_required">This field is required</string>
+    <string name="passwords_must_match">Passwords must match</string>
+    <string name="loading_message">Loading…</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile Administration</string>
+    <string name="menu_achievements">Achievements</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="twitter_login">Twitter login</string>
+    <string name="fb_login">Facebook login</string>
+    <string name="app_id">830133423676900</string>
+    <string name="event_call_question">Will you attend the donation event in %1$s at %2$s? We need you blood type.</string>
+    <string name="confirm_logout">Are you sure you want to log out?</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="street_address">Street and street number</string>
+    <string name="additional_data">Additional data</string>
+    <string name="sex">Sex</string>
+    <string name="rh_factor">Rh Factor</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="save">Save</string>
+    <string name="save_success">Successfully saved</string>
+    <string name="password_reset_success">An email with reset instructions was sent to your email address.</string>
+    <string name="language">Language</string>
+
+    <string-array name="sex">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="rh">
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="blood_type">
+        <item>0</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="languages">
+        <item>en</item>
+        <item>de</item>
+        <item>hr</item>
+    </string-array>
+
+    <string name="donated_liters">DONATED LITERS</string>
+    <string name="days_next_donation">DAYS TO NEXT DONATION</string>
+    <string name="current_achievements">ACHIEVEMENTS YOU CURRENTLY HAVE</string>
+    <string name="liters_to_free_ticket">LITERS TO FREE TRAM TICKET</string>
+    <string name="only_donors">Only donors can use this app.</string>
+    <string name="continue_">Continue</string>
+
+</resources>

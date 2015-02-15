@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:scrollbarStyle="outsideOverlay"
+    tools:context="hr.foi.rsc.lifeline.fragments.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/input_name"
+            style="@style/TextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name" />
+
+        <EditText
+            android:id="@+id/input_surname"
+            style="@style/TextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/surname" />
+
+        <RelativeLayout
+            android:id="@+id/layout_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                style="@style/RedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/spinner_sex"
+                android:layout_alignParentLeft="true"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:text="@string/sex" />
+
+            <Spinner
+                android:id="@+id/spinner_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:entries="@array/sex" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/input_address"
+            style="@style/TextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/street_address" />
+
+        <RelativeLayout
+            android:id="@+id/layout_blood_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                style="@style/RedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/spinner_blood_type"
+                android:layout_alignParentLeft="true"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:text="@string/blood_type" />
+
+            <Spinner
+                android:id="@+id/spinner_blood_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:entries="@array/blood_type" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_rh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                style="@style/RedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/spinner_rh"
+                android:layout_alignParentLeft="true"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:text="@string/rh_factor" />
+
+            <Spinner
+                android:id="@+id/spinner_rh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:entries="@array/rh" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/input_additional"
+            style="@style/TextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:minLines="3"
+            android:maxLines="5"
+            android:hint="@string/additional_data" />
+
+        <Button
+            android:id="@+id/button_save"
+            style="@style/RedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/continue_" />
+    </LinearLayout>
+</ScrollView>

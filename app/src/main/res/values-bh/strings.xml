@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lifeline</string>
+    <string name="forgot_password">Zaboravili ste lozinku?</string>
+    <string name="register">Registriracija</string>
+    <string name="sign_in">Prijava</string>
+    <string name="email">Email</string>
+    <string name="username">Korisničko ime</string>
+    <string name="password">Lozinka</string>
+    <string name="confirm_password">Potvrda lozinke</string>
+    <string name="field_required">Ovo polje je obavezno</string>
+    <string name="passwords_must_match">Lozinke moraju biti iste</string>
+    <string name="loading_message">Učitavanje…</string>
+    <string name="action_settings">Postavke</string>
+    <string name="navigation_drawer_open">Otvori navigacijsku ladicu</string>
+    <string name="navigation_drawer_close">Zatvori navigacijsku ladicu</string>
+    <string name="menu_home">Naslovna</string>
+    <string name="menu_profile">Administracija profila</string>
+    <string name="menu_institutions">Institucije</string>
+    <string name="menu_settings">Postavke</string>
+    <string name="menu_logout">Odjava</string>
+    <string name="twitter_login">Twitter prijava</string>
+    <string name="fb_login">Facebook priajva</string>
+    <string name="app_id">830133423676900</string>
+    <string name="event_call_question">Hoćete li doći na dariavnje krvi u %1$s u %2$s? Trebamo vašu krvnu grupu.</string>
+    <string name="confirm_logout">Jeste li sigurni da se želite odjaviti?</string>
+    <string name="name">Ime</string>
+    <string name="surname">Prezime</string>
+    <string name="street_address">Ulica i kućni broj</string>
+    <string name="additional_data">Dodatni podaci</string>
+    <string name="sex">Spol</string>
+    <string name="rh_factor">Rh Faktor</string>
+    <string name="blood_type">Krvna grupa</string>
+    <string name="save">Spremi</string>
+    <string name="save_success">Uspješno spremljeno</string>
+    <string name="password_reset_success">Email sa uputstvima za resetiranje vaše lozinke je poslan.</string>
+    <string name="language">Jezik</string>
+
+    <string-array name="sex">
+        <item>M</item>
+        <item>Ž</item>
+    </string-array>
+    <string-array name="rh">
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="blood_type">
+        <item>0</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="languages">
+        <item>en</item>
+        <item>de</item>
+        <item>hr</item>
+    </string-array>
+
+    <string name="donated_liters">DONIRANE LITRE</string>
+    <string name="days_next_donation">DANI DO SLIJEDEĆE DONACIJE</string>
+    <string name="current_achievements">DOSTIGNUĆA KOJA TRENUTNO IMATE</string>
+    <string name="liters_to_free_ticket">LITRE DO BESPLATNE TRAMVAJSKE KARTE</string>
+    <string name="only_donors">Samo donori mogu koristiti ovu aplikaciju.</string>
+
+</resources>
