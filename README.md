@@ -14,6 +14,12 @@ The Hackathon was held on the 22nd and 23rd of november 2014. The task (a blood 
 After the 24 hours were up and everyone got a bit of sleep all the teams presented their implementations.
 The organizers then graded the teams using a range of criteria and declared the winners.
 
+## About the task
+
+The task was to implement a blood donor system which consists of a web application and a mobile application.
+The web application is used by donor institutions to manage their blood supply and send push notifications to donors.
+The mobile app is used by donors to track their donations and encourage them to donate using gamification.
+
 ## Features
 
 - registration
@@ -26,7 +32,7 @@ The organizers then graded the teams using a range of criteria and declared the 
 
 ## Screenshots
 
-![Screenshots](https://raw.githubusercontent.com/reisub/Lifeline-Android/master/screenshots.png)
+![Screenshots](https://raw.github.com/reisub/Lifeline-Android/master/screenshots.png)
 
 ## Credits
 
