@@ -3,7 +3,7 @@
 Lifeline Android is part of the blood donor system we implemented for the [Ready, steady, code 1.0 Hackathon](http://rsc.foi.hr).
 The accompanying web application for donor institutions is located [here](http://lifeline.code.sexy/).
 
-Our team of four won the 3rd prize!
+Our team won the 3rd prize!
 
 The repository containing the code for the whole system is located [here](https://github.com/foivz/RSC-Wrecking-Ball).
 
